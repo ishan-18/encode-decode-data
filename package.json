@@ -1,0 +1,23 @@
+{
+  "name": "encode-decode-data",
+  "version": "1.0.0",
+  "description": "A Simple npm package to encode and decode the data. Y",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node dist/index.js",
+    "build": "tsc"
+  },
+  "bin": {
+    "enc-dec": "dist/cli.js"
+  },
+  "keywords": ["encode", "decode", "encodedecode", "node", "express", "stream", "file-encode", "file-decode"],
+  "author": "Ishan Gawali",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
